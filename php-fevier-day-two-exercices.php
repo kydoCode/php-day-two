@@ -1,13 +1,13 @@
 <?php
     #EXERCICE 1:
     # Tableau associatif avec quelques données
-    $nombres = [
-        "citySpeed" => 50,
-        "countrySpeed" => 80,
-        "highwaySpeed" => 130,
-    ];
+    $nombres = array(
+        1 => 50,
+        2 => 80,
+        3 => 130,
+    );
     # Destructuration de données des deux premières valeurs de l'array
-    ["citySpeed" => $citySpeed, "countrySpeed" => $countrySpeed, "highwaySpeed" => $highwaySpeed] = $nombres;
+    [1 => $citySpeed, 2 => $countrySpeed, 3 => $highwaySpeed] = $nombres;
     # On passe ces var à l'affichage
     echo "Vitesse en ville: $citySpeed, vitesse hors agglomération: $countrySpeed, vitesse sur autoroute: $highwaySpeed";
     echo "<br><br>";
@@ -60,4 +60,71 @@
     ["couleurUne" => $colorOne, "couleurDeux" => $colorTwo] = $couleurs;
 
     echo "Lee couleurs en présence sont $colorOne et $colorTwo.";
+    echo "<br><br>"
 ?>
+
+<?php
+    #EXERCICE 1:
+    $a = 20;
+    $b = 14; 
+    echo "Le résultat de: $a + $b = " .($a+$b);
+    echo "<br><br>";
+
+    #EXERCICE 2:
+    $a = 20;
+    $b = 17;
+    echo "Le résultat de: $a - $b = " .($a-$b);
+    echo "<br><br>";
+
+    #EXERCICE 3:
+    $a = 107;
+    $b = 205;
+    echo "Le résultat de : $a * $b = " .($a*$b);
+    echo "<br><br>";
+
+    #EXERCICE 4:
+    $a = 50;
+    $b = 4;
+    echo "Le résultat de : $a / $b = " .($a/$b);
+    echo "<br><br>";
+
+    #EXERCICE 5:
+    $a = 13;
+    $b = 4;
+    echo "Le reste de $a % $b = ".($a%$b);
+    echo "<br><br>";
+
+    #EXERCICE 6:
+    $c = 109;
+    echo "La valeur de $c + 1 est égal à :".($c+=1);
+    echo "<br><br>";
+
+    #EXERCICE 7:
+    $d = 28;
+    echo "La valeur de $d - 1 est égal à: ".($d-=1);
+    echo "<br><br>";
+
+    #EXERCICE 8:
+    $e; 
+    echo "La valeur de la variable passe désormais à ".($e = 700);
+    echo "<br><br>";
+
+    #EXERCICE 9:
+    $f = 10;
+    echo $f." est la valeur de f. On ajoute 5 à f: ".($f+=5);
+    echo "<br><br>";
+
+    #EXERCICE 10:
+    $g = 200;
+    echo $g." est la valeur de g. On enlève 25 à g: ".($g-25);
+    echo "<br><br>";
+
+    #EXERCICE 11:
+    $h = 67;
+    echo $h." est la valeur de h. On multiple h par 10: ".($h*10);
+    echo"<br><br>";
+
+    #EXERCICE 12:
+    $i = 89;
+    echo $i." est la valeur de i. On divise i par 3: ".($i/3);
+?>  
