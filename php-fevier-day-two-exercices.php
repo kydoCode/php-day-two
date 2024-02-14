@@ -165,7 +165,167 @@
     echo "<br><br>";
     
     #EXERCICE4:
-    
+    $age = 19;
+
+    $checkAccess = ($age >= 21) ? "Accès autorisé" : "Accès refusé";
+    echo $checkAccess;
+
+/*
+    switch($age){
+        case $age >=21:
+            echo "Accès autorisé";
+            break;
+        case $age > 18 && $age < 21;
+            echo "Bienvenue dans le monde des grands";
+            break;
+        case $age == 18:
+            echo "Fête ça au champagne !";
+            break;
+        default:
+            echo "Rentre chez ta mère !";
+    }
+    */
+    echo "<br><br>";
+    #EXERCICE 5:
+    $a = 27;
+    $b = 19;
+    $c = 8;
+   
+
+    if ($a>$b && $a>$c) {
+        echo "$a est plus grand que $b et $c";
+    } elseif ($b>$a && $b>$c) {
+        echo "$b est plus grand que $a et $c";
+    } elseif ($c>$a && $c>$b) {
+        echo "$c est plus grand que $a et $b";
+    } else {
+        echo "Autre cas";
+    }
+    echo "<br><br>";
 ?>
 
+<?php
+    # EXERCICE 1:
+
+    $someWeekDay = 2;
+
+    switch($someWeekDay) {
+        case 1:
+            echo "Lundi";
+            break;
+        case 2:
+            echo "Mardi";
+            break;
+        case 3:
+            echo "Mercredi";
+            break;
+        case 4:
+            echo "Jeudi";
+            break;
+        case 5:
+            echo "Vendredi";
+            break;
+        case 6:
+            echo "Samedi";
+            break;
+        case 7:
+            echo "Dimanche";
+            break;
+    }
+    echo "<br><br>";
+
+    #EXERCICE 2:
+    $color = "red";
+
+    switch($color) {
+        case "red":
+            echo "Rouge";
+            break;
+        case "blue":
+            echo "Bleu";
+            break;
+        case "green":
+            echo "Vert";
+            break;
+    }
+    echo "<br><br>";
+    #EXERCICE 3:
+
+    $compute = "/";
+    $numberOne = 14;
+    $numberTwo = 7;
+
+    switch($compute) {
+        case "+":
+            echo $numberOne+$numberTwo;
+            break;
+        case "-":
+            echo $numberOne-$numberTwo;
+            break;
+        case "*":
+            echo $numberOne*$numberTwo;
+            break;
+        case "/":
+            echo $numberOne/$numberTwo;
+            break;
+        
+    }
+    echo "<br><br>";
+    
+    #EXERCICE 4:
+    $someMonth = 7;
+
+    switch($someMonth) {
+        case 1: 
+            echo "Janvier";
+            break;
+        case 2: 
+            echo "Février";
+            break;
+        case 3: 
+            echo "Mars";
+            break;
+        case 4: 
+            echo "Avril";
+            break;
+        case 5: 
+            echo "Mai";
+            break;
+        case 6: 
+            echo "Juin";
+            break;
+        case 7: 
+            echo "Juillet";
+            break;
+        case 8: 
+            echo "Août";
+            break;
+        case 9: 
+            echo "Septembre";
+            break;
+        case 10: 
+            echo "Octobre";
+            break;
+        case 11: 
+            echo "Novembre";
+            break;
+        case 12: 
+            echo "Décembre";
+            break;
+             
+    }
+    echo "<br><br>";
+
+    #EXERCICE 5:
+
+    $monthSelect = 6;
+
+    switch($monthSelect) {
+        case 
+
+        case
+        
+        case
+    }
+?>
 
