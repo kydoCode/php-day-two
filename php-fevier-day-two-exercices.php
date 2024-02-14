@@ -96,12 +96,12 @@
 
     #EXERCICE 6:
     $c = 109;
-    echo "La valeur de $c + 1 est égal à :".($c+=1);
+    echo "La valeur de $c + 1 est égal à :".(++$c);
     echo "<br><br>";
 
     #EXERCICE 7:
     $d = 28;
-    echo "La valeur de $d - 1 est égal à: ".($d-=1);
+    echo "La valeur de $d - 1 est égal à: ".(--$d);
     echo "<br><br>";
 
     #EXERCICE 8:
@@ -116,15 +116,56 @@
 
     #EXERCICE 10:
     $g = 200;
-    echo $g." est la valeur de g. On enlève 25 à g: ".($g-25);
+    echo $g." est la valeur de g. On enlève 25 à g: ".($g-=25);
     echo "<br><br>";
 
     #EXERCICE 11:
     $h = 67;
-    echo $h." est la valeur de h. On multiple h par 10: ".($h*10);
+    echo $h." est la valeur de h. On multiple h par 10: ".($h*=10);
     echo"<br><br>";
 
     #EXERCICE 12:
     $i = 89;
-    echo $i." est la valeur de i. On divise i par 3: ".($i/3);
-?>  
+    echo $i." est la valeur de i. On divise i par 3: ".($i/=3);
+    echo "<br><br>"
+?>
+
+<?php
+    # EXERCICE 1:
+    $var01 = 12;
+    $var02 = 67;
+
+    if($var01 == $var02){
+        echo "Nombres égaux";
+    } else {
+        echo "Nombres différents";
+    }
+    echo "<br><br>";
+
+    #EXERCICE 2:
+    $someNumber = -6;
+
+    if($someNumber > 0){
+        echo "Nombre positif";
+    } elseif ($someNumber == 0){
+        echo "Zéro";
+    } else {
+        echo "Nombre négatif";
+    }
+    echo "<br><br>";
+
+    #EXERCICE 3:
+    $someYear = 1878;
+
+    if ($someYear % 4 == 0) {
+        echo "Année bisextile";
+    } else {
+        echo "Non bisextile";
+    }
+    echo "<br><br>";
+    
+    #EXERCICE4:
+    
+?>
+
+
